@@ -9,7 +9,21 @@
   /* End of your code */
 })();
 
+//Math = built-in object that provides a collection of properties and methods
 
+// const = a variable that can't be change
+
+//Math.round() : round-up
+//Math.floor() : round-down
+//Math.ceil() : round-up
+//Math.trunc() : 
+//pow(x,y) : y^2
+//sqrt
+//log() : logarithm
+//sin()/cos()/tan()
+//abs() : negative ot posititve
+//sign() : -1,0,1
+//
 Math.ceil(2.1);
 Math.floor(2.9);
 Math.round(2.5);

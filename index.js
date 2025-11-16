@@ -18,5 +18,5 @@ console.log(x,typeof x);
 console.log(y,typeof y);
 console.log(z,typeof z);
 
-// const = a variable that can't be change
+
 
