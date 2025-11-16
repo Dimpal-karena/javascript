@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    #countlabel{
+    body{
+      text-align: center;
+    }
+    /* #countlabel{
       display: block;
       text-align: center;
       font-size: 10em;
@@ -25,11 +28,21 @@
     }
     .buttons:hover{
       background-color: rgb(47, 152, 175);
+    } */
+
+    /* random-generator styles */
+
+    #mybutton{
+      font-size: 2em;
+    }
+    .randoms{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 1.5em;
     }
   </style>
 </head>
 <body>
-  <label id = 'countlabel'>0</label>
+  <!-- <label id = 'countlabel'>0</label>
   <br>
   <div id="btnContainer">
   <button id = 'decrease' class="buttons">decrease
@@ -39,6 +52,17 @@
   <button id = 'increase' class="buttons">increase
   </button>
   </div>
+<br> -->
+
+  <!-- random-number generator : -->
+  <button id="mybutton">roll</button>
+<br><br>
+    <label id="label1" class="randoms"></label><br>
+        <label id="label2" class="randoms"></label><br>
+            <label id="label3" class="randoms"></label>
+            <br>
+            <br>
+   <label id="mysum" class="randoms">sum is :</label>
   <script src="counter.js">
   </script>
 </body>
